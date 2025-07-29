@@ -1,1 +1,17 @@
-@import 'bootstrap/scss/bootstrap';
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap";
+
+@import "components/variables";
+@import "components/navbar";
+@import "components/buttons";
+body {
+    height: 120vh;
+}
+
+// .jumbotron__body {
+//   max-width: 40%;
+// }
+
+// Dropdown animation

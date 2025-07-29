@@ -1,0 +1,19 @@
+// Variabel root SCSS (bisa dipindah ke _variables.scss jika ingin modular)
+@import "bootstrap/scss/variables";
+
+$primary-color: #4a90e2; // Lebih kuat dari #77b5fe
+$accent-color: #7e57c2; // Ungu keunguan yang lebih tajam
+$bg-color: #f4f6fa; // Background terang lembut
+
+$text-light: #ffffff;
+$text-dark: #212529;
+
+// Warna dropdown berdasarkan tema
+$dropdown-primary-bg: $primary-color;
+$dropdown-primary-color: $text-light;
+
+$dropdown-accent-bg: $accent-color;
+$dropdown-accent-color: $text-light;
+
+$accent-dark-bg: darken($accent-color, 15%);
+$accent-dark-color: $text-light;
